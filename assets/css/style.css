@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color:silver;
+    background-color: silver;
 }
 
 body {
@@ -19,21 +19,26 @@ body {
     float: left;
     margin-left: 30px;
     font-family: lilita One, arial, sans serif;
-    font-size: 500%;
+    font-size: 800%;
     color: rgb(7, 61, 7);
 }
 
 #menu {
     font-family: lilita one, arial, sans serif;
     width: 900px;
-    margin: 10px;
+    margin-left: 60%;
+    font-size: 200%;
+    font-weight: 300;
+
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
-    margin-top: 40px
+    margin-top: 60px
+   
+    
     
 }
 
@@ -58,9 +63,9 @@ h1, h2, h3 {
 /*hero image*/
 
 #hero-image {
-    height:600px;
+    height: 600px;
     width: 100%; 
-    background-image:url(../images/hero-image-gaa.jpg);
+    background-image:url('../images/hero-image-gaa.jpg');
     background-size: cover;
 
 }
@@ -73,3 +78,54 @@ h1, h2, h3 {
     position: relative;
 
 }
+
+/* club search buttons & map */
+
+#province-buttons {
+    width: 50%
+    height: 800px;
+}
+
+#province-buttons li {
+    
+    font-size: 50px;
+    border: 15px outset rgb(7, 61, 7);
+    display: block;
+    margin-top: 50px;
+    padding: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 400px;
+    border-radius: 10%;
+    margin-left: 50px;
+      
+}
+
+#province-buttons a {
+        text-decoration: none;
+        color: inherit;
+}
+
+#province-buttons img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+#map img {
+    height: 1000px;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
