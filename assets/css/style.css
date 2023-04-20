@@ -1,65 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
     background-color:silver;
-
 }
+
+body {
+    font-family: lilita one, arial, sans serif;
+    font-weight: 200;
+    color:rgb(7, 61, 7) 
+}
+
+/* logo and nav bar*/
 
 #logo {
     float: left;
-    font-size: 400%;
-    border: 0;
-    padding: 0;
+    margin-left: 30px;
+    font-family: lilita One, arial, sans serif;
+    font-size: 500%;
     color: rgb(7, 61, 7);
 }
 
-h1 {
-    font-family: lato, oswald, arial, sans serif;
-    letter-spacing: 3px;
-    text-transform: uppercase; 
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    padding-bottom: 5px;
-
-
-}
-
-h2, h3 {
-    font-family: lato, oswald, arial, sans serif;
-    letter-spacing: 3px;
-    text-transform: uppercase; 
-    text-align: center; 
-    font-weight: bold;
-    font-size: 40px;
-    
-}
-
-#pitch-image {
-    width: 100%;
-    height: 200px;
-    background: url('../images/pitch-image.jpg') no-repeat center center;
-    background-size: cover;
-
-    
-}
-
-#pitch-outer {
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
+#menu {
+    font-family: lilita one, arial, sans serif;
+    width: 900px;
+    margin: 10px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    padding: 10px;
-    margin-top: 5px;
-    color:rgb(7, 61, 7)
-    font-size: 110%;
+    margin-right: 20px;
+    margin-top: 40px
+    
+}
+
+#menu #logo {
+    line-height: 75px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
+/*headings*/
+
+h1, h2, h3 {
+    font-family: lilita One, arial, sans serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(7, 61, 7)
+}
+
+/*hero image*/
+
+#hero-image {
+    height:600px;
+    width: 100%; 
+    background-image:url(../images/hero-image-gaa.jpg);
+    background-size: cover;
+
+}
+
+#hero-outer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    
+    position: relative;
+
+}
