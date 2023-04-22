@@ -19,13 +19,14 @@ body {
     float: left;
     margin-left: 30px;
     font-family: lilita One, arial, sans serif;
-    font-size: 800%;
+    font-size: 400%;
     color: rgb(7, 61, 7);
+    margin-top: 30px;
 }
 
 #menu {
     font-family: lilita one, arial, sans serif;
-    width: 900px;
+    width: 700px;
     margin-left: 60%;
     font-size: 200%;
     font-weight: 300;
@@ -63,10 +64,13 @@ h1, h2, h3 {
 /*hero image*/
 
 #hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%; 
-    background-image:url('../images/hero-image-gaa.jpg');
-    background-size: cover;
+    background-image:url(../images/hero-image-gaa.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
 
 }
 
@@ -129,3 +133,38 @@ h1, h2, h3 {
     justify-content: left;
 }
 
+/* home page content */
+
+.home-page {
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.home-page-left {
+    margin-top: 0;
+    border: 10px double rgb(7, 61, 7);
+    float: left;
+    padding: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 5%;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-page-right {
+    margin-top: 30px;
+    border: 10px solid rgb(7, 61, 7);
+    float: right;
+    padding: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
