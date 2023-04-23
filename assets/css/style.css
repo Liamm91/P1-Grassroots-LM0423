@@ -4,15 +4,32 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: silver;
+    
 }
 
 body {
     font-family: lilita one, arial, sans serif;
     font-weight: 200;
-    color:rgb(7, 61, 7) 
+    color: inherit;
 }
 
+#main-container {
+    background-color: whitesmoke;
+    width: 150vh;
+    height: 300vh;
+    margin-left: 200px;
+    border: 5px solid rgb(7, 61, 7);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(7, 61, 7);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 2px solid rgb(7, 61, 7);
+    margin-bottom: 30px;
+}
 /* logo and nav bar*/
 
 #logo {
@@ -20,16 +37,16 @@ body {
     margin-left: 30px;
     font-family: lilita One, arial, sans serif;
     font-size: 400%;
-    color: rgb(7, 61, 7);
     margin-top: 30px;
 }
 
 #menu {
     font-family: lilita one, arial, sans serif;
-    width: 700px;
-    margin-left: 60%;
+    width: 50%;
+    margin-left: auto;
     font-size: 200%;
     font-weight: 300;
+    color: rgb(7, 61, 7);
 
 }
 
@@ -37,10 +54,7 @@ body {
     float: right;
     list-style-type: none;
     margin-right: 20px;
-    margin-top: 60px
-   
-    
-    
+    margin-top: 60px   
 }
 
 #menu #logo {
@@ -73,7 +87,7 @@ h1, h2, h3 {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    margin-bottom: auto;
+    
 
 }
 
@@ -86,7 +100,74 @@ h1, h2, h3 {
 
 }
 
-/* club search buttons & map */
+/* home page content */
+
+#video-gaa {
+    margin-right: 33%;
+    margin-left: 33%;
+    margin-top: 10px;
+    border: 5px solid rgba(7, 61, 7, 0.8);
+    padding: 0;
+}
+
+#right-about {
+    float: right;
+}
+
+#left-about {
+    float: left;
+}
+.right-about-heading {
+    float: right;
+    width: 33%;
+}
+ .left-about-heading {
+    float: left;
+    width: 33%;
+ }
+
+ #about-gaa hr {
+    width: 33%
+ }
+#benefits-heading{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 100px;S
+}
+
+.benefits-card {
+    
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+.benefits-card-list {
+    box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
+    width: 20%;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    margin: 20px;
+    height: 40%;
+    float: left;
+    border-radius: 5%;
+    font-size: 15px;
+    color: rgb(7, 61, 7);
+   }
+
+#video-card {
+    margin-right: 33%;
+    margin-left: 33%;
+    margin-top: 10px;
+    border: 5px solid rgba(7, 61, 7, 0.8);
+    padding: 0;
+}
+   /* club search buttons & map */
 
 #province-buttons {
     width: 50%
@@ -123,10 +204,10 @@ h1, h2, h3 {
 }
 
 #map img {
-    height: 1000px;
+    width: 100%;
+    height: 100%;
     margin-top: 50px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 150px;
     border-radius: 10%;
 }
 
@@ -134,123 +215,4 @@ h1, h2, h3 {
     display: flex;
     flex-direction: row;
     justify-content: left;
-}
-
-/* home page content */
-
-#history {
-    margin-bottom: 50px;
-    float: left;
-    padding: 50px;
-    width: 100%;
-    min-height: 600px;
-    border-radius: 5%;
-    font-size: 20px;
-    text-align: left;
-    margin-right: 100px;
-    list-style: none;
-    
-}
-
-#history li {
-    line-height: 40px;
-}
-
-#history-video {
-    float: right;
-    border: 20px groove rgb(7, 61, 7);
-    border-radius: 10%;
-    float: left;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px;
-    margin-left: 20px;
-    
-}
-
-.history-list-left {
-    width: 20%;
-    float: left;
-    margin-left: 60px;
-    margin-right: 60px;
-    
-}
-.history-list-right {
-    width: 20%;
-    float: right;
-    margin-right: 200px;
-}
-
-#history h1 {
-    font-size: 100px;
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-#benefits {
-    margin-top: 30px;
-    padding: 50px;
-    width: 100%;
-    min-height: 300px;
-    border-radius: 3%;
-    font-size: 25px;
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 200px;
-    margin-bottom: 50px;  
-}
-
-.benefits-left {
-    width: 20%;
-    min-height: 300px;
-    border: 10px groove rgb(7, 61, 7);
-    padding: 25px;
-    border-radius: 15%;
-    margin: 10px;
-    float: left;
-    margin-top: 25px;
-    font-size: 20px;
-
-}
-
-.benefits-center {
-    width: 20%;
-    min-height: 300px;
-    border: 10px groove rgb(7, 61, 7);
-    padding: 25px;
-    border-radius: 15%;
-    margin: 10px;
-    float: left;
-    margin-top: 25px;
-    font-size: 20px;
-
-}
-.benefits-right {
-    width: 20%;
-    min-height: 300px;
-    border: 10px groove rgb(7, 61, 7);
-    padding: 25px;
-    border-radius: 15%;
-    float: left;
-    margin: 10px;
-    font-size: 20px;
-}
-
-#benefits h1 {
-    font-size: 25px;
-    text-align: center;
-}
-
-#benefits li h3 {
-    padding: 10px;
-}
-
-#benefits li {
-    list-style: none;
-}
-
-#benefits h1 {
-    font-size: 100px;
-    text-align: center;
-    margin-bottom: 100px;
 }
