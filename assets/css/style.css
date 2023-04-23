@@ -81,7 +81,7 @@ h1, h2, h3 {
 #hero-image {
     height: 500px;
     width: 100%; 
-    background-image:url(../images/hero-image-gaa.jpg);
+    background-image:url(../css/images/hero-image-gaa.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -299,6 +299,22 @@ h1, h2, h3 {
     display: flex;
     flex-direction: row;
     justify-content: left;
+}
+
+/*ulster club locator*/
+
+#ulster-club-finder {
+    width: 100%;
+    height: 600px;
+}
+
+.ulster-county-badges li {
+    width: 40px;
+    display: inline;
+    height: 50px;
+    text-decoration: none;
+    list-style: none;
+    margin: 50px;
 }
 
 /* footer */
