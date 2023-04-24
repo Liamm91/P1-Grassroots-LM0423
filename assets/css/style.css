@@ -34,7 +34,7 @@ hr {
 
 #logo {
     float: left;
-    margin-left: 30px;
+    margin-left: 10px;
     font-family: lilita One, arial, sans serif;
     font-size: 400%;
     margin-top: 30px;
@@ -44,8 +44,8 @@ hr {
     font-family: lilita one, arial, sans serif;
     width: 50%;
     margin-left: auto;
-    font-size: 200%;
-    font-weight: 300;
+    font-size: 110%;
+    
     color: rgb(7, 61, 7);
 
 }
@@ -107,7 +107,7 @@ h1, h2, h3 {
     height: 1000px;
     margin-bottom: 20px;
     color: rgb(7, 61, 7);
-    margin-top: 20px;
+    
 }
 
 #about-gaa-heading {
@@ -117,65 +117,58 @@ h1, h2, h3 {
 }
 
 #video-gaa {
-    width: 33%;
+    width: 100%;
     height: 600px;
     padding-top: 60px;
     margin-bottom: 10px;
-    margin-left: 25%;
-    margin-right: 300%;
+    margin-left: 3%;
+    margin-right: 1%;
     margin-top: 40px;
     
 }
 
 #video-gaa iframe {
+    width: 90%;
     border: 10px outset rgb(7, 61, 7);
-    margin: 20px;
-    position: relative;
-    background-size: cover;
+    margin-top: 10%;
+    margin-left: 1%;
+    
 }
 
 #right-about {
-    width: 33%;
+    width: 20%;
     float: right;
-    margin: 50px;
-    font-size: 30px;
+    margin: 10px;
+    margin-top: 40px;
     color: inherit;
     box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
-    width: 20%;
     text-align: center;
     list-style-type: none;
     padding: 15px;
-    margin: 20px;
     height: 20%;
-    float: left;
     border-radius: 5%;
-    font-size: 120%;
+    font-size: 25px;
     color: rgb(7, 61, 7);
     background-color: white;
-    font-size: 25px;
     line-spacing: 3px;
 
 }
 
 #left-about {
-    width: 33%;
-    float: left;
-    font-size: 30px;
-    color: inherit;
-    margin: 50px;
-    box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
     width: 20%;
+    float: left;
+    font-size: 25px;
+    color: inherit;
+    margin: 5px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
     text-align: center;
     list-style-type: none;
     padding: 15px;
-    margin: 20px;
     height: 20%;
-    float: left;
     border-radius: 5%;
-    font-size: 120%;
     color: rgb(7, 61, 7);
     background-color: white;
-    font-size: 25px;
     line-spacing: 3px;
 
 }
@@ -184,14 +177,13 @@ h1, h2, h3 {
     width: 33%;
     font-size: 30px;
     color: inherit;
-    margin-left: 10px;
+    
 }
  .left-about-heading {
     float: left;
     width: 33%;
     font-size: 30px;
     color: inherit;
-    margin-left: 10px;
  }
 
 #about-gaa hr {
@@ -218,19 +210,20 @@ h1, h2, h3 {
 
 .benefits-card-list {
     box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
-    width: 20%;
+    width: 33%;
     text-align: center;
     list-style-type: none;
-    padding: 15px;
-    margin: 20px;
-    height: 40%;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 70px;
+    height: 20%;
     float: left;
     border-radius: 5%;
     font-size: 120%;
     color: rgb(7, 61, 7);
     background-color: white;
     font-size: 25px;
-    line-spacing: 3px;
+    line-spacing: 4px;
    }
 
 .benefit-card-list:hover {
@@ -299,23 +292,24 @@ h1, h2, h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 #province-buttons {
     width: 50%;
-    height: 1000px;
+    height: 800px;
     display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #province-buttons li {
     
     box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
-    width: 45%;
+    width: 33%;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     list-style-type: none;
-    font-size: 250%;
+    font-size: 350%;
     height: 200px;
     float: left;
     border-radius: 5%;
@@ -338,10 +332,10 @@ h1, h2, h3 {
 }
 
 #map img {
-    width: 150%;
+    width: 130%;
     height: 90%;
     margin-top: 50px;
-    margin-left: 0;
+    margin-left: 1%;
     margin-right: 600%;
     border-radius: 10%;
 
@@ -356,10 +350,17 @@ h1, h2, h3 {
 
 /*club locator*/
 
-#ulster-clubs, #munster-clubs, #connacht-clubs, #leinster-clubs  {
+#ulster-clubs {
     height: 1200px;
 }
 
+#munster-clubs, #connacht-clubs {
+    height: 600px;
+}
+
+#leinster-clubs {
+    height: 1200px;
+}
 #flex-container-ulster-club-finder, #flex-container-munster-club-finder, #flex-container-connacht-club-finder, #flex-container-leinster-club-finder {
     height: 100%;
     width: 100%;  
@@ -371,13 +372,33 @@ h1, h2, h3 {
     width: 100%;
     margin-bottom: 50px;
     margin-top: 50px;
+    margin-left: 100px;
     height: 400%;
 
    
 }
-.ulster-county-badges li, .munster-county-badges li, .connacht-county-badges li, .leinster-county-badges li {
+
+.munster-county-badges li, .connacht-county-badges li {
     box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
     width: 25%;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    
+    margin: 10px;
+    height: 42%;
+    float: left;
+    border-radius: 5%;
+    font-size: 200%;
+    color: rgb(7, 61, 7);
+    background-color: white;
+}
+
+
+.ulster-county-badges li {
+
+    box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
+    width: 20%;
     text-align: center;
     list-style-type: none;
     padding: 15px;
@@ -388,7 +409,25 @@ h1, h2, h3 {
     font-size: 200%;
     color: rgb(7, 61, 7);
     background-color: white;
-  
+}
+
+.leinster-county-badges li {
+
+    box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
+    width: 20%;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 60px;
+    height: 15%;
+    float: left;
+    border-radius: 5%;
+    font-size: 200%;
+    color: rgb(7, 61, 7);
+    background-color: white;
+
+
 }
 .ulster-county-badges a, .munster-county-badges a, .connacht-county-badges a, .leinster-county-badges a 
 {
