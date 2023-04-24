@@ -17,7 +17,7 @@ body {
     background-color: rgb(194, 189, 189);
     width: 75%;
     height: 100%;
-    margin-left: 200px;
+    margin-left: 250px;
     border: 5px solid rgb(7, 61, 7);
     padding: 10px;
     border-radius: 5px;
@@ -34,7 +34,7 @@ hr {
 
 #logo {
     float: left;
-    margin-left: 10px;
+    margin-left: 1%;
     font-family: lilita One, arial, sans serif;
     font-size: 400%;
     margin-top: 30px;
@@ -42,10 +42,10 @@ hr {
 
 #menu {
     font-family: lilita one, arial, sans serif;
-    width: 50%;
-    margin-left: auto;
+    width: 40%;
+    margin-left: 10%;
     font-size: 110%;
-    
+    float: right;
     color: rgb(7, 61, 7);
 
 }
@@ -241,8 +241,8 @@ h1, h2, h3 {
 
 #main-container-fundamentals {
     background-color: rgb(194, 189, 189);
-    width: 150vh;
-    height: 250vh;
+    width: 75%;
+    height: 100%;
     margin-left: 200px;
     border: 5px solid rgb(7, 61, 7);
     padding: 10px;
@@ -281,9 +281,8 @@ h1, h2, h3 {
 
 #main-container-club-finder {
     background-color: rgb(194, 189, 189);
-    display: block;
-    width: 150vh;
-    height: 500%;
+    width: 75%;
+    height: 100%;
     margin-left: 200px;
     border: 5px solid rgb(7, 61, 7);
     padding: 10px;
@@ -309,7 +308,7 @@ h1, h2, h3 {
     padding: 20px;
     margin: 10px;
     list-style-type: none;
-    font-size: 350%;
+    font-size: 300%;
     height: 200px;
     float: left;
     border-radius: 5%;
@@ -332,7 +331,7 @@ h1, h2, h3 {
 }
 
 #map img {
-    width: 130%;
+    width: 110%;
     height: 90%;
     margin-top: 50px;
     margin-left: 1%;
@@ -434,6 +433,57 @@ h1, h2, h3 {
     color: inherit;
     text-decoration: none;
 }
+
+/*contact us form*/
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+
+}
+
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+
+}
+
+  input[type=submit] {
+    background-color: rgb(7, 61, 7);
+    color: white;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: rgb(13, 127, 204);
+  }
+  
+  .contact-container {
+    border-radius: 5px;
+    background-color: silver;
+    padding: 20px;
+    padding-left: 33%;
+    padding-right: 33%;
+  }
+
+
+
 /* footer */
 
 footer {
