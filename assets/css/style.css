@@ -3,8 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
-    
+    border: none; 
 }
 
 * { 
@@ -16,20 +15,13 @@ body {
     font-weight: 200;
     color: inherit;
 }
-
-#main-container {
+ #main-container {
     background-color: rgb(194, 189, 189);
-    max-width: 75%;
+    max-width: 100%;
     height: 100%;
-    margin-left: 250px;
-    border: 5px solid rgb(7, 61, 7);
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 10px 10px 5px rgb(7, 61, 7);
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
-
 hr {
     border: 2px solid rgb(7, 61, 7);
     margin-bottom: 30px;
@@ -40,14 +32,13 @@ hr {
     float: left;
     margin-left: 1%;
     font-family: lilita One, arial, sans serif;
-    font-size: 400%;
-    margin-top: 30px;
+    font-size: 300%;
+    margin-top: 1%;
 }
 
 #menu {
     font-family: lilita one, arial, sans serif;
-    max-width: 50%;
-    margin-left: 10%;
+    max-width:100%;
     font-size: 110%;
     float: right;
     color: rgb(7, 61, 7);
@@ -62,7 +53,7 @@ hr {
 }
 
 #menu #logo {
-    line-height: 50px;
+    line-height: 75px;
 }
 #menu a {
     text-decoration: none;
@@ -97,7 +88,7 @@ h1, h2, h3 {
 
 #hero-outer {
     width: 100%;
-    height: 500px;
+    height: 300px;
     overflow: hidden;
     
     position: relative;
@@ -108,87 +99,71 @@ h1, h2, h3 {
 
 #about-gaa {
     max-width: 100%;
-    height: 1000px;
-    margin-bottom: 20px;
+    padding: 30px;
     color: rgb(7, 61, 7);
+    margin: 2%;
+    box-shadow: 10px solid rgb(7, 61, 7);
+    border: 5px solid rgb(7, 61, 7);
+    border-radius: 2%;
     
 }
 
-#about-gaa-heading {
-    font-size: 400%;
+#about-gaa p {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#about-gaa h3 {
+    font-size: 150%;
     text-align: center;
     margin-bottom: 30px;
+    text-decoration: underline;
+    padding: 5px;
 }
 
-#video-gaa {
-    max-width: 100%;
-    height: 600px;
-    padding-top: 60px;
-    margin-bottom: 10px;
-    margin-left: 3%;
-    margin-right: 1%;
-    margin-top: 40px;
-    
-}
-
-#video-gaa iframe {
-    max-width: 100%;
-    border: 10px outset rgb(7, 61, 7);
+.video-gaa iframe {
+    width: 60%;
+    height: 100%;
+    border: 2px inset rgb(7, 61, 7);
+    margin-right: 5%;
+    margin-left: 10%;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-bottom: 10%;
     
+
 }
 
-#right-about {
-    width: 20%;
-    float: left;
-    margin: 10px;
-    margin-top: 40px;
+#facts-gaa {
+    max-width: 100%;
+    height: 500px;
     color: inherit;
-    box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
     text-align: center;
     list-style-type: none;
-    padding: 15px;
-    height: 20%;
-    border-radius: 5%;
-    font-size: 150%;
-    color: rgb(7, 61, 7);
+    padding: 10px;
+    font-size: 100%;
     background-color: white;
-    line-spacing: 3px;
-
+    margin: 2%;
+    border: 5px solid rgb(7, 61, 7);
+}
+#facts-gaa h2 {
+    max-width: 80%;
+    font-size: 100%;
+    text-align: left;
+    padding: 10px;
 }
 
-#left-about {
-    width: 20%;
-    font-size: 150%;
-    float: left;
-    color: inherit;
-    margin: 5px;
-    margin-top: 40px;
+#facts-gaa div {
+    max-width: 20%;
+    height: 20%;
     box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
-    text-align: center;
-    list-style-type: none;
-    padding: 15px;
-    height: 20%;
+    border: 2px solid rgb(7, 61, 7)
     border-radius: 5%;
-    color: rgb(7, 61, 7);
-    background-color: white;
-    line-spacing: 3px;
-
+    float: left;
+    margin: 2%;
 }
-.right-about-heading {
-    width: 33%;
-    font-size: 30px;
-    color: inherit;
-    padding: 3px;
-    
-}
- .left-about-heading {
-    width: 33%;
-    font-size: 30px;
-    color: inherit;
-    padding: 3px;
- }
 
 #about-gaa hr {
     border-top: 1px solid #3a3a3a;
@@ -196,39 +171,44 @@ h1, h2, h3 {
     margin: 5px 0;
 }
 #benefits-heading{
-    font-size: 300%;
+    font-size: 150%;
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    
    
 }
 
-.benefits-card {
+
+#benefits-card {
     
-    display: flex;
-    max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    width: 100%;
+    min-height: 600px;
+    margin: 2%;
+    border:rgb(7, 61, 7);
+    
+    
     
 }
 
-.benefits-card-list {
-    box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
-    max-width: 33%;
+.benefit-card-list {
+
+    width: 20%;
+    min-height: 40%;
+    margin: 10px;
+    padding: 5px;
     text-align: center;
     list-style-type: none;
-    padding: 20px;
-    margin: 10px;
-    margin-left: 70px;
-    height: 20%;
     float: left;
-    border-radius: 5%;
-    font-size: 120%;
+    font-size: 100%;
     color: rgb(7, 61, 7);
-    background-color: white;
-    font-size: 25px;
-    line-spacing: 4px;
+
+
+   }
+
+.benefit-card-list p {
+
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
    }
 
 .benefit-card-list:hover {
@@ -237,25 +217,12 @@ h1, h2, h3 {
 
 
 }
-.benefits-card-list h3 {
+.benefit-card-list h3 {
     font-size: 120%;
-    text-decoration: underline;
+    text-align: left;
 }
 
 /* fundamentals */
-
-#main-container {
-    background-color: rgb(194, 189, 189);
-    width: 75%;
-    height: 200%;
-    margin-left: 200px;
-    border: 5px solid rgb(7, 61, 7);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px rgb(7, 61, 7);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 #fundamentals {
     display: inline;
@@ -286,19 +253,6 @@ h1, h2, h3 {
     font-size: 50px;
     text-decoration: underline;
 
-}
-
-#main-container {
-    background-color: rgb(194, 189, 189);
-    width: 75%;
-    height: 100%;
-    margin-left: 200px;
-    border: 5px solid rgb(7, 61, 7);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 5px rgb(7, 61, 7);
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 #province-buttons {
@@ -540,12 +494,13 @@ footer {
         width: 65%;
         height: 100%;
         margin: 0 auto;
+        
     }
 
     #video-gaa iframe {
         max-width: 80%;
-        margin-right: 40%;
-        margin-left: 10px;
+        margin-right: 33%;
+        margin-left: 10%;
     
     }
     #benefits-card-list {      
@@ -581,6 +536,14 @@ footer {
 
 }
 
+#video-gaa iframe {
+    max-width: 80%;
+    margin-right: 33%;
+    margin-left: 10%;
+
+}
+
+
 
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
@@ -589,6 +552,7 @@ footer {
         width: 65%;
         height: 80%;
         margin: 0 auto;
+        display: grid;
     }
    
 }
