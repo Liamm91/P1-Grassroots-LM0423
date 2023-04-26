@@ -1,6 +1,8 @@
 
 ##Grassroots GAA Website
 
+image.png
+
 
 ###This is the website for Grassroots GAA. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for users
 
@@ -19,7 +21,7 @@
 
 ##Colour Scheme
 
-###The two main colours used are Green, and Silver.
+###The two main colours used are Green, and White.
 
 #Typography
 
@@ -31,14 +33,9 @@
 
 ###The hero image is designed catch the user's attention. It is bright and stands out well on the darker background.
 
-Home Page Wireframe - View
 
-Mobile Wireframe - View
-
-Contact Us Page Wireframe - View
 
 Features
-Responsive on all device sizes
 
 Interactive elements:
 

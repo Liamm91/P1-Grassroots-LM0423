@@ -280,7 +280,7 @@ hr {
     width: 80%;
     height: 80%;
     margin-bottom: 100%;
-    margin-left: 50%;
+    margin-left: 20%;
     border-radius: 10%;
     float: left;
     display: inline;
@@ -288,8 +288,9 @@ hr {
 }
 
 .flex-container {
-    display: flex;
-    float: left;
+
+    background-color: white;
+    
 }
 
 /*club locator*/
@@ -421,7 +422,9 @@ input[type=email], select, textarea {
 
 footer {
     height: 100%;
-    background-color: rgba(7, 61, 7, 0.8);
+    width: 100%;
+    color: white;
+    background-color: rgb(58, 173, 58);
     border: 1px solid whitesmoke;
 }
 
@@ -442,7 +445,7 @@ footer {
     color: whitesmoke;
 }
 
-.footer-address {
+#footer-address {
     text-align: center;
     font-size: 200%;
     color: whitesmoke;
@@ -465,17 +468,13 @@ footer {
         margin: 0 auto;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
 
     #left-about, #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
-
+}
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -494,7 +493,7 @@ footer {
         display: flex;
         flex-direction: column;
     }
-
+}
     
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
