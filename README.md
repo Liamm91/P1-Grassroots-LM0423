@@ -2,22 +2,34 @@
 ##Grassroots GAA Website
 
 
-This is the website for Grassroots GAA. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for users
+###This is the website for Grassroots GAA. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for users
 
 
-User Experience (UX)
-User stories
-First Time Visitor Goal:
-As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-Returning Visitor Goal:
-As a Returning Visitor, I want to find information about local GAA teams
-Design
-Colour Scheme
-The two main colours used are Green, and Silver.
-Typography
-The Lilita One font is the main font used throughout the whole website with Arial and Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Lilita One was clear and easily readable.
-Imagery
-The hero image is designed catch the user's attention. It is bright and stands out well on the darker background.
+#User Experience (UX)
+
+##User stories
+
+##First Time Visitor Goal:
+
+###As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+###Returning Visitor Goal: As a returning visitor I want to be able to access new content regularly
+
+#Design
+
+##Colour Scheme
+
+###The two main colours used are Green, and Silver.
+
+#Typography
+
+##The Lilita One font is the main font used throughout the whole website with Arial and Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
+
+###Lilita One was clear and easily readable.
+
+##Imagery
+
+###The hero image is designed catch the user's attention. It is bright and stands out well on the darker background.
 
 Home Page Wireframe - View
 
