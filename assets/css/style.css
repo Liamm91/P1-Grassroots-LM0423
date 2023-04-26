@@ -4,26 +4,23 @@
     margin: 0;
     padding: 0;
     border: none; 
+    color: black;
 }
-
+/*
 * { 
     border: 1px solid red;
     } 
-
+*/
 body {
     font-family: lilita one, arial, sans serif;
     font-weight: 200;
-    color: inherit;
-}
- #main-container {
-    background-color: rgb(194, 189, 189);
-    max-width: 100%;
-    height: 100%;
-    padding: 10px;
-    border-radius: 5px;
+    color: white;
+    margin: 2%;
+    background-color: silver
+
 }
 hr {
-    border: 2px solid rgb(7, 61, 7);
+    border: 2px inherit rgb(7, 61, 7);
     margin-bottom: 30px;
 }
 /* logo and nav bar*/
@@ -33,7 +30,7 @@ hr {
     margin-left: 1%;
     font-family: lilita One, arial, sans serif;
     font-size: 300%;
-    margin-top: 1%;
+    
 }
 
 #menu {
@@ -66,7 +63,7 @@ h1, h2, h3 {
     font-family: lilita One, arial, sans serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(7, 61, 7);
+    color: black;
     text-align: center;
     
 }
@@ -78,12 +75,8 @@ h1, h2, h3 {
     width: 100%; 
     background-image:url(../images/hero-image-gaa.png);
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     background-size: cover;
     background-position: center;
-    
-
 }
 
 #hero-outer {
@@ -92,7 +85,6 @@ h1, h2, h3 {
     overflow: hidden;
     
     position: relative;
-
 }
 
 /* home page content */
@@ -103,9 +95,12 @@ h1, h2, h3 {
     color: rgb(7, 61, 7);
     margin: 2%;
     box-shadow: 10px solid rgb(7, 61, 7);
-    border: 5px solid rgb(7, 61, 7);
     border-radius: 2%;
     
+}
+
+.about-heading {
+    font-size: 280%;
 }
 
 #about-gaa p {
@@ -116,133 +111,109 @@ h1, h2, h3 {
     line-height: 25px;
 }
 
-#about-gaa h3 {
-    font-size: 150%;
-    text-align: center;
-    margin-bottom: 30px;
-    text-decoration: underline;
-    padding: 5px;
-}
-
-.video-gaa iframe {
-    width: 60%;
-    height: 100%;
-    border: 2px inset rgb(7, 61, 7);
-    margin-right: 5%;
+#facts-gaa iframe {
+    max-width: 100%;
+    max-height: 100%;
+    border: 20px inset rgb(7, 61, 7);
     margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    
 
 }
 
 #facts-gaa {
-    max-width: 100%;
-    height: 500px;
-    color: inherit;
-    text-align: center;
-    list-style-type: none;
-    padding: 10px;
-    font-size: 100%;
-    background-color: white;
+    height: 800px;
     margin: 2%;
-    border: 5px solid rgb(7, 61, 7);
-}
-#facts-gaa h2 {
-    max-width: 80%;
-    font-size: 100%;
-    text-align: left;
-    padding: 10px;
 }
 
-#facts-gaa div {
-    max-width: 20%;
-    height: 20%;
-    box-shadow: 0 4px 8px 0 rgba(7, 61, 7, 0.8);
-    border: 2px solid rgb(7, 61, 7)
-    border-radius: 5%;
+.facts-gaa {
+    padding-top: 30px;
+    width: 20%;
     float: left;
-    margin: 2%;
+    margin: 3%;
+    margin-left: 10%;
 }
 
-#about-gaa hr {
+.facts-gaa {
+    padding-top: 30px;
+    width: 15%;
+    float: left;
+    margin: 3%;
+    margin-left: 5%;
+    font-size: 100%;
+}
+
+.gaa-video {
+    max-width: 33%;
+    margin: 0 auto;
+}
+
+hr {
     border-top: 1px solid #3a3a3a;
-    max-width: 100%;
+    width: 100%;
     margin: 5px 0;
 }
-#benefits-heading{
-    font-size: 150%;
-    text-align: center;
-    
-   
-}
 
 
-#benefits-card {
-    
+#video-container {
     width: 100%;
-    min-height: 600px;
-    margin: 2%;
-    border:rgb(7, 61, 7);
-    
-    
-    
+    height: 500px;
+    padding: 30px;
+    margin: 0 auto;
 }
 
-.benefit-card-list {
-
-    width: 20%;
-    min-height: 40%;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-    list-style-type: none;
-    float: left;
-    font-size: 100%;
+#benefits {
+    max-width: 100%;
+    min-height: 1200px;
+    padding: 30px;
     color: rgb(7, 61, 7);
-
-
-   }
-
-.benefit-card-list p {
-
-    width: 100%;
-    height: 100%;
-    padding-bottom: 5px;
-   }
-
-.benefit-card-list:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-
-
-}
-.benefit-card-list h3 {
-    font-size: 120%;
-    text-align: left;
+    margin: 2%;
+    box-shadow: 10px solid rgb(7, 61, 7);
+    border-radius: 2%;
+    float: left;
+    
 }
 
+#benefits div {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 200%;
+}
+
+.benefits-heading {
+    font-size: 400%;
+}
 /* fundamentals */
 
 #fundamentals {
-    display: inline;
+    display: block;
     margin-left: 25%;
-    margin-right: 33%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #fundamentals h1 {
-    font-size: 280%;
-    padding: 20px;
+    font-size: 150%;
+    margin: 10px;
+    padding: 30px;
     text-decoration: underline;
     text-align: center;
     display: inline;
-    margin-left: 35%;
+    margin-left: 33%;
 }
 
 #fundamentals iframe {
      max-width: 100%;
      border: 10px outset rgb(7, 61, 7);
-     margin-left: 15%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     margin-left: 5%;
      margin-right: 25%;
 }
 
@@ -445,13 +416,11 @@ input[type=email], select, textarea {
     padding-right: 33%;
   }
 
-
-
 /* footer */
 
 footer {
     height: 150px;
-    background-color: rgb(7, 61, 7);
+    background-color: rgba(7, 61, 7, 0.8);
     border: 1px solid whitesmoke;
 }
 
