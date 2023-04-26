@@ -153,7 +153,7 @@ hr {
 
 #benefits {
     max-width: 100%;
-    min-height: 1200px;
+    min-height: 600px;
     padding: 30px;
     color: rgb(7, 61, 7);
     margin: 2%;
@@ -164,25 +164,30 @@ hr {
 }
 
 #benefits div {
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
     float: left;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     box-sizing: border-box;
+    border: 2%;
     font-size: 100%;
+    display: inline;
+   
 }
 
 .benefits-heading {
+    height: 100px;
     font-size: 280%;
-    margin: 10%;
+    margin: 2%;
 }
 
 .flex-container {
     display: flex;
-    width: 100%;
-    margin: 5%
+    width: 80%;
+    height: 50%;
     float: left;
+    margin-left: 1%;
 }
 /* fundamentals */
 
