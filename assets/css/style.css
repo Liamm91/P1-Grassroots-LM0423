@@ -287,11 +287,6 @@ hr {
 
 }
 
-.flex-container {
-
-    background-color: white;
-    
-}
 
 /*club locator*/
 
@@ -424,28 +419,28 @@ footer {
     height: 100%;
     width: 100%;
     color: white;
-    background-color: rgb(58, 173, 58);
+    background-color: whitesmoke;
     border: 1px solid whitesmoke;
 }
 
 .social-media {
     text-align: center;
-    color: whitesmoke;
+    color: black;
 }
 
 .social-media > li {
     display: inline;
-    color:whitesmoke;
+    color:black;
 }
 
 .social-media i {
     font-size: 160%;
     margin: 1%;
     padding: 0%;
-    color: whitesmoke;
+    color black;
 }
 
-#footer-address {
+.footer-address {
     text-align: center;
     font-size: 200%;
     color: whitesmoke;
